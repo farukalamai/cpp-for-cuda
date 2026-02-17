@@ -1,4 +1,3 @@
-// 01-basics/hello_world.cpp
 // Your first C++ program
 
 
