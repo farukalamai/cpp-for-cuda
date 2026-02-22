@@ -4,6 +4,7 @@ A structured C++ learning path designed specifically for developers preparing to
 
 ## Repository Structure
 
-| Folder | Topic |
-|--------|-------|
-| `01-basics/` | Variables, types, I/O |
+| Folder | Topic | Why It Matters for CUDA |
+|--------|-------|------------------------|
+| `01-basics/` | Variables, types, I/O | Foundation for all C++/CUDA code |
+| `02-control-flow/` | Loops, conditionals | Understanding loop → parallel conversion |

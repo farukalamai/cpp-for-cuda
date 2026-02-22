@@ -2,7 +2,7 @@
 
 
 #include <iostream>
-#include <cstdio>    // for printf — C-style, commonly used in CUDA
+#include <cstdio>    // for printf — C-style
 
 int main() {
     // === C++ style I/O with cout/cin ===
@@ -18,7 +18,7 @@ int main() {
 
     std::cout << "Hello " << name << ", you are " << age << " years old." << std::endl;
 
-    // === C-style printf (important for CUDA!) ===
+    // === C-style printf ===
     std::cout << "\n=== C-Style printf ===" << std::endl;
 
     int x = 42;
@@ -32,7 +32,7 @@ int main() {
     printf("string: %s\n", "hello");
     printf("multiple: x=%d, y=%.2f\n", x, y);
 
-    // Format specifiers you'll use in CUDA:
+    // Format specifiers 
     // %d   → int
     // %u   → unsigned int
     // %f   → float/double
